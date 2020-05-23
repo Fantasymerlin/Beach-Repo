@@ -9,10 +9,10 @@
 			<import addon="script.module.metahandler" version="1.0.0" />
 			<import addon="script.module.requests" version="2.12.4"/>-->
 		</requires>
-		<extension point="xbmc.python.pluginsource" library="lastship.py">
+		<extension point="xbmc.python.pluginsource">
 			<provides>video</provides>
 		</extension>
-		<extension point="xbmc.service" library="service.py" start="startup" />
+		<extension point="xbmc.service" start="startup" />
 		<extension point="xbmc.addon.metadata">
 			<summary lang="de">test</summary>
 			<description lang="de"></description>
@@ -22,11 +22,11 @@
 			<assets>
 				<icon>icon.png</icon>
 				<fanart>fanart.jpg</fanart>
-				<screenshot>resources/screenshots/screenshot-01.png</screenshot>
+				<!--<screenshot>resources/screenshots/screenshot-01.png</screenshot>
 				<screenshot>resources/screenshots/screenshot-02.png</screenshot>
 				<screenshot>resources/screenshots/screenshot-03.png</screenshot>
                 <screenshot>resources/screenshots/screenshot-04.png</screenshot>
-                <screenshot>resources/screenshots/screenshot-05.png</screenshot>
+                <screenshot>resources/screenshots/screenshot-05.png</screenshot>-->
 			</assets>
 			<news>
 			Die aktuellsten Änderungen findest du im Changelog
