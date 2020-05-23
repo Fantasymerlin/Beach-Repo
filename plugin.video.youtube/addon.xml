@@ -6,15 +6,15 @@
 		<import addon="script.lastship.artwork" />
 		<import addon="script.module.urlresolver" />
 		<import addon="script.module.requests" />
-		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.module.metahandler" version="1.0.0" />-->
 	</requires>
-	<extension point="xbmc.python.pluginsource" library="lastship.py">
+	<extension point="xbmc.python.pluginsource" >
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.addon.metadata">-->
+	<extension point="xbmc.addon.metadata">
 		<summary lang="de">Youtube</summary>
-		<description lang="de">Youtube Test</description>
+		<description lang="de">Youtube</description>
 		<disclaimer lang="de"></disclaimer>
 		<platform>all</platform>
 		<assets>
