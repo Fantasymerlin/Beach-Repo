@@ -18,7 +18,7 @@
 			<description lang="de"></description>
 			<disclaimer lang="de"></disclaimer>
 			<platform>all</platform>
-			<source>https://github.com/Fantasymerlin/Beach-Repo/plugin.video.youtube</source>
+			<source>https://github.com/Fantasymerlin/Beach-Repo/tree/master/plugin.video.youtube</source>
 			<assets>
 				<icon>icon.png</icon>
 				<fanart>fanart.jpg</fanart>
